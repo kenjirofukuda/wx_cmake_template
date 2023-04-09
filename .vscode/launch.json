@@ -10,11 +10,13 @@
             "preLaunchTask": "Build with CMake"
         },
         {
-            "name": "(lldb-linux) Launch",
-            "type": "lldb",
+            "name": "(gdb-linux) Launch",
+            "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/subprojects/Build/wx_cmake_template_core/main",
+            "MIMode": "gdb",
             "cwd": "${workspaceFolder}",
+            "miDebuggerPath": "/usr/bin/gdb",
             "preLaunchTask": "Build with CMake"
         },
         {
@@ -24,6 +26,6 @@
             "program": "${workspaceFolder}\\build\\subprojects\\Build\\wx_cmake_template_core\\Debug\\main.exe",
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "Build with CMake"
-        }
+         }
     ]
 }

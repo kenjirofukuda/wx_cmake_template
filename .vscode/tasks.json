@@ -16,7 +16,8 @@
             },
             "dependsOn": [
                 "Configure with CMake"
-            ]
+            ],
+            "problemMatcher": []
         },
         {
             "label": "Configure with CMake",
@@ -27,6 +28,15 @@
                 "-S.",
                 "-Bbuild"
             ]
-        }
+        },
+        {
+            "label": "Launch with CMake",
+            "type": "shell",
+            "command": "${workspaceFolder}/go_linux.sh",
+            "dependsOn": [
+                "Build with CMake"
+            ],
+        },
+
     ]
 }
