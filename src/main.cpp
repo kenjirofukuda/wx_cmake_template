@@ -5,7 +5,8 @@
 #include <wx/wx.h>
 #endif
 
-#ifdef WIN32 // for ccls
+
+#ifdef __WXMSW__ // for ccls
 #include <wx/frame.h>
 #include <wx/menu.h>
 #endif
@@ -33,6 +34,8 @@ enum
     ID_Hello = 1
 };
 
+
+// *INDENT-OFF*
 // clang-format off
 wxBEGIN_EVENT_TABLE(MyFrame, wxFrame)
     EVT_MENU(ID_Hello, MyFrame::OnHello)
@@ -41,6 +44,7 @@ wxBEGIN_EVENT_TABLE(MyFrame, wxFrame)
 wxEND_EVENT_TABLE()
 wxIMPLEMENT_APP(MyApp);
 // clang-format on
+// *INDENT-ON*
 
 bool MyApp::OnInit()
 {

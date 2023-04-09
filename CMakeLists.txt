@@ -2,8 +2,16 @@ cmake_minimum_required(VERSION 3.6 FATAL_ERROR)
 
 project(wx_cmake_template LANGUAGES CXX)
 
+message(STATUS "----- CMakeLists.txt")
+message(STATUS "CMAKE_SOURCE_DIR        =${CMAKE_SOURCE_DIR}")
+message(STATUS "CMAKE_BINARY_DIR        =${CMAKE_BINARY_DIR}")
+message(STATUS "CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR}")
+message(STATUS "CMAKE_CURRENT_BINARY_DIR=${CMAKE_CURRENT_BINARY_DIR}")
+
+
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(RC_SRC_DIR "${CMAKE_SOURCE_DIR}/rc")
 
 # ExternalProject base
 set_property(DIRECTORY PROPERTY EP_BASE ${CMAKE_BINARY_DIR}/subprojects)
