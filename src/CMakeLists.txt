@@ -19,7 +19,7 @@ endif()
 
 set(wxWidgets_USE_STATIC 1)
 
-find_package(wxWidgets REQUIRED)
+find_package(wxWidgets REQUIRED core base OPTIONAL_COMPONENTS html xml xrc)
 
 # set(SRCS main.cpp)
 set(SRCS main_rc.cpp)

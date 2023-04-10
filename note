@@ -40,3 +40,63 @@ rpcrt4
 shlwapi
 version
 wsock32
+
+ wxWidgets_FIND_COMPONENTS :
+ WX_CONFIGURATION_LIST=mswud;mswu
+ mswu
+ _wx_filename:  C:/wxWidgets-3.2.2.1/include/wx/version.h
+ wxWidgets_VERSION_STRING:    3.2.2
+ m_unv =
+ m_ucd = u
+ m_dbg =
+ m_ver = 32
+ m_unv =
+ m_ucd = u
+ m_dbg = d
+ m_ver = 32
+ Looking for core;base;png;tiff;jpeg;zlib;regex;expat
+ Searching for core and cored
+ WX_core  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxmsw32u_core.lib
+ WX_cored : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxmsw32ud_core.lib
+ Found core and cored
+ Searching for base and based
+ WX_base  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxbase32u.lib
+ WX_based : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxbase32ud.lib
+ Found base and based
+ Searching for png and pngd
+ WX_png  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxpng.lib
+ WX_pngd : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxpngd.lib
+ Found png and pngd
+ Searching for tiff and tiffd
+ WX_tiff  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxtiff.lib
+ WX_tiffd : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxtiffd.lib
+ Found tiff and tiffd
+ Searching for jpeg and jpegd
+ WX_jpeg  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxjpeg.lib
+ WX_jpegd : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxjpegd.lib
+ Found jpeg and jpegd
+ Searching for zlib and zlibd
+ WX_zlib  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxzlib.lib
+ WX_zlibd : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxzlibd.lib
+ Found zlib and zlibd
+ Searching for regex and regexd
+ WX_regex  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxregexu.lib
+ WX_regexd : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxregexud.lib
+ Found regex and regexd
+ Searching for expat and expatd
+ WX_expat  : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxexpat.lib
+ WX_expatd : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxexpatd.lib
+ Found expat and expatd
+ OpenGL
+ _wx_filename:  C:/wxWidgets-3.2.2.1/include/wx/version.h
+ wxWidgets_VERSION_STRING:    3.2.2
+ wxWidgets_FOUND           : TRUE
+ wxWidgets_INCLUDE_DIRS    : C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/mswu;C:/wxWidgets-3.2.2.1/include
+ wxWidgets_LIBRARY_DIRS    :
+ wxWidgets_LIBRARIES       : debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxmsw32ud_core.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxmsw32u_core.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxbase32ud.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxbase32u.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxpngd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxpng.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxtiffd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxtiff.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxjpegd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxjpeg.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxzlibd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxzlib.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxregexud.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxregexu.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxexpatd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxexpat.lib;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32
+-- C:/Users/kenjiro/scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindwxWidgets.cmake(174): wxWidgets_CXX_FLAGS       :
+-- C:/Users/kenjiro/scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindwxWidgets.cmake(174): wxWidgets_USE_FILE        : C:/Users/kenjiro/scoop/apps/cmake/3.26.3/share/cmake-3.26/Modules/UsewxWidgets.cmake
+-- Found preinstalled wxWidgets libraries at debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxmsw32ud_core.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxmsw32u_core.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxbase32ud.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxbase32u.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxpngd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxpng.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxtiffd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxtiff.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxjpegd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxjpeg.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxzlibd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxzlib.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxregexud.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxregexu.lib;debug;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxexpatd.lib;optimized;C:/wxWidgets-3.2.2.1/lib/vc_x64_lib/wxexpat.lib;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/kenjiro/Documents/github/wx_cmake_template/build
