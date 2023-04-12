@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-if [ $(oname -o) != "Msys" ]; then
+if [ $(uname -o) != "Msys" ]; then
   echo "only windows!"
   exit 1
 fi

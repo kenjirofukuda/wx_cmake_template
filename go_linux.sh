@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-if [ $(oname -o) != "GNU/Linux" ]; then
+if [ $(uname -o) != "GNU/Linux" ]; then
   echo "only linux!"
   exit 1
 fi
