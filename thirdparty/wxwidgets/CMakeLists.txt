@@ -1,6 +1,9 @@
 # check if wxWidgets is already installed in the system - using CMake's built in script FindwxWidgets
-find_package(wxWidgets REQUIRED core base OPTIONAL_COMPONENTS html xml xrc)
-# find_package(wxWidgets QUIET OPTIONAL_COMPONENTS xrc)
+if (WIN32)
+  find_package(wxWidgets REQUIRED core base OPTIONAL_COMPONENTS html xml xrc)
+else()
+  find_package(wxWidgets QUIET)
+endif()
 
 if(wxWidgets_FOUND)
     message(STATUS "Found preinstalled wxWidgets libraries at ${wxWidgets_LIBRARIES}")

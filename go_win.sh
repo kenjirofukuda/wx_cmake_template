@@ -1,5 +1,10 @@
 #!/usr/bin/bash
 
+if [ $(oname -o) != "Msys" ]; then
+  echo "only windows!"
+  exit 1
+fi
+
 top_dir=$(dirname $0)
 cd "$top_dir"
 entry_point=main

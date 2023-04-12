@@ -19,7 +19,12 @@ endif()
 
 set(wxWidgets_USE_STATIC 1)
 
-find_package(wxWidgets REQUIRED core base OPTIONAL_COMPONENTS html xml xrc)
+if (WIN32)
+  find_package(wxWidgets REQUIRED core base OPTIONAL_COMPONENTS html xml xrc)
+else()
+  find_package(wxWidgets REQUIRED)
+endif()
+
 
 # set(SRCS main.cpp)
 set(SRCS main_rc.cpp)
